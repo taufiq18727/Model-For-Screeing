@@ -1,0 +1,8 @@
+numpy
+pandas
+yfinance
+joblib
+requests
+scikit-learn
+tensorflow-cpu
+h5py
