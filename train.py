@@ -10,9 +10,15 @@ from sklearn.preprocessing import RobustScaler
 
 # --- KONFIGURASI CANGGIH ---
 tickers = [
-    "BBCA.JK", "BBRI.JK", "BMRI.JK", "TLKM.JK", "ASII.JK", "ANTM.JK", 
-    "MDKA.JK", "GOTO.JK", "ADRO.JK", "PGAS.JK", "UNVR.JK", "ICBP.JK",
-    "AMRT.JK", "CPIN.JK", "INKP.JK", "PTBA.JK", "ITMG.JK", "MEDC.JK"
+# SAHAM-SAHAM GORENGAN & SECOND LINER (Sering Spike)
+    "BUMI", "DEWA", "BRMS", "PSAB", "ELSA", "ENRG", "MDKA", "TINS", "ANTM", "INCO",
+    "ADMR", "DOID", "HRUM", "INDY", "ITMG", "PTBA", "ADRO", "MEDC", "PGAS", "AKRA",
+    "GOTO", "BUKA", "EMTK", "SCMA", "ARTO", "BBHI", "AGRO", "BRIS", "PNBS", "BNBR",
+    "ASII", "AUTO", "DRMA", "GJTL", "IMAS", "MPPA", "LPPF", "RALS", "ACES", "MAPI",
+    "MNCN", "BMTR", "KPIG", "BHIT", "BCAP", "SAME", "SILO", "HEAL", "MIKA", "PRIM",
+    "BBCA", "BBRI", "BMRI", "BBNI", "TLKM", "ISAT", "EXCL", "TOWR", "TBIG", "JSMR",
+    "BSDE", "CTRA", "SMRA", "PWON", "ASRI", "PANI", "PTPP", "WIKA", "ADHI", "WEGE",
+    "SRTG", "KIJA", "BEST", "APLN", "META", "LCGP", "HOKI", "CLEO", "WOOD", "MYOR"
 ]
 
 SEQ_LEN = 45       # Dikurangi ke 45 hari (2 bulan trading) agar lebih responsif
