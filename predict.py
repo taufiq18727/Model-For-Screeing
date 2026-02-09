@@ -12,14 +12,31 @@ CHAT_IDS = ["977432672", "864486458"] # Sesuaikan ID
 
 # Target Saham (Sama seperti daftar Anda)
 target_tickers = [
-    "BBCA.JK", "BBRI.JK", "BMRI.JK", "BBNI.JK", "BRIS.JK", "BBTN.JK", "BDMN.JK",
-    "ADRO.JK", "PTBA.JK", "ITMG.JK", "UNTR.JK", "PGAS.JK", "MEDC.JK", "AKRA.JK",
-    "ANTM.JK", "MDKA.JK", "INCO.JK", "TINS.JK", "MBMA.JK", "NCKL.JK", "HRUM.JK",
-    "TLKM.JK", "ISAT.JK", "EXCL.JK", "JSMR.JK", "ICBP.JK", "INDF.JK", "MYOR.JK",
-    "UNVR.JK", "AMRT.JK", "MIDI.JK", "MAPI.JK", "ACES.JK", "CPIN.JK", "JPFA.JK",
-    "BSDE.JK", "CTRA.JK", "SMRA.JK", "PWON.JK", "PANI.JK", "GOTO.JK", "BUKA.JK",
-    "EMTK.JK", "ASII.JK", "AUTO.JK", "DRMA.JK", "INKP.JK", "TKIM.JK", "BRMS.JK",
-    "BUMI.JK", "DEWA.JK", "PSAB.JK", "DOID.JK", "MAPA.JK", "SRTG.JK", "ESSA.JK"
+    # BANKING & FIN
+    "BBCA", "BBRI", "BMRI", "BBNI", "BRIS", "BBTN", "BDMN", "BNGA", "NISP", "BTPS", "ARTO", "BBHI",
+    # ENERGY (COAL, OIL, GAS)
+    "ADRO", "PTBA", "ITMG", "HRUM", "INDY", "DOID", "KKGI", "BUMI", "ENRG", "MEDC", "ELSA", "PGAS", "RAJA", "AKRA", "WINS", "LEAD", "MCOL",
+    # MINERALS (NICKEL, GOLD, COPPER)
+    "ANTM", "INCO", "MDKA", "TINS", "MBMA", "NCKL", "BRMS", "PSAB", "AMMN", "ADMR", "ZINC", "DKFT",
+    # TECH & DIGITAL
+    "GOTO", "EMTK", "SCMA", "BUKA", "BELI", "WIRG", "MTDL",
+    # CONSUMER GOODS
+    "ICBP", "INDF", "MYOR", "UNVR", "KLBF", "SIDO", "CMRY", "GOOD", "ROTI", "ADES", "CLEO", "ULTJ", "HOKI",
+    # RETAIL
+    "AMRT", "MIDI", "ACES", "MAPI", "MAPA", "LPPF", "ERAA", "RALS",
+    # TELECOM & TOWER
+    "TLKM", "ISAT", "EXCL", "FREN", "TOWR", "TBIG", "MTEL", "CENT",
+    # PROPERTY & CONSTRUCTION
+    "BSDE", "CTRA", "SMRA", "PWON", "ASRI", "PANI", "PTPP", "WIKA", "ADHI", "WEGE", "TOTL", "NRCA", "JKON",
+    # AUTO & INDUSTRIAL
+    "ASII", "AUTO", "DRMA", "UNTR", "HEXA", "GJTL", "IMAS",
+    # BASIC INDUSTRY & CEMENT
+    "INKP", "TKIM", "SMGR", "INTP", "BRPT", "TPIA", "ESSA", "JPFA", "CPIN", "MAIN",
+    # TRANSPORT & LOGISTIC
+    "ASSA", "BIRD", "GIAA", "SMDR", "TMAS", "IPCM",
+    # HIGH VOLATILITY / THIRD LINER (TRADING)
+    "DEWA", "KIJA", "MLPL", "MPPA", "SRTG", "PNBS", "BNBR", "BHIT", "APLN", "BEST",
+    "SAME", "SILO", "HEAL", "MIKA", "PRDA", "MNCN", "BMTR", "KPIG"
 ]
 
 SEQ_LEN = 45 # Harus sama dengan Train
